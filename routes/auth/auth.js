@@ -2,7 +2,7 @@ import express from "express";
 const authRoute = express.Router();
 
 // importing auth controller
-import { register,login, verification } from "../../controller/auth/auth.js";
+import { register, login, verification } from "../../controller/auth/auth.js";
 
 // signup route
 authRoute.post("/sign-up", register);
